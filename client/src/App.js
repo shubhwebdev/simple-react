@@ -1,11 +1,12 @@
+import Navbar from './Components/Globals/Navbar';
+import Landing from './Components/Landing';
 
 
 function App() {
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Navbar />
+      <Landing />
     </div>
   );
 }
